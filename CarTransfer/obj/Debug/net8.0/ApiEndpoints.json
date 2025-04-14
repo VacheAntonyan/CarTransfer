@@ -1,5 +1,153 @@
 [
   {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "AddCar",
+    "RelativePath": "api/Admin/AddCar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "CarTransfer.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "AddTransfer",
+    "RelativePath": "api/Admin/AddTransfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transfer",
+        "Type": "CarTransfer.Models.Transfers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/Admin/DeleteCar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "DeleteTransfer",
+    "RelativePath": "api/Admin/DeleteTransfer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "GetAllCars",
+    "RelativePath": "api/Admin/GetAllCars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "GetAllTransfers",
+    "RelativePath": "api/Admin/GetAllTransfers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "GetCarByID",
+    "RelativePath": "api/Admin/GetCarByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "GetTransferByID",
+    "RelativePath": "api/Admin/GetTransferByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Admin/UpdateCar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "CarTransfer.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarTransfer.Controllers.AdminController",
+    "Method": "UpdateTransfer",
+    "RelativePath": "api/Admin/UpdateTransfer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transfer",
+        "Type": "CarTransfer.Models.Transfers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CarTransfer.Controllers.CarController",
     "Method": "AddCar",
     "RelativePath": "api/Car/AddCar",
